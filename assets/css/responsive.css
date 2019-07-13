@@ -1,0 +1,196 @@
+@media (max-width: 1200px) {
+.navbar{
+    padding-top: 0px;
+}
+
+.footer__logo{
+    width: 40%;
+}
+.developmentheading{
+    width: 60%;
+}
+.aboutheading {
+    width: 14%;
+}
+.aboutcontain1{
+    width: 98%;
+}
+.aboutcontain2{
+    margin-bottom: 20px;
+        width: 87%;
+}
+.servicesheading {
+    width: 12%;
+}
+.permanentheading {
+    width: 21%;
+}
+.permanentcontain1,.permanentcontain2 {
+    width: 47%;
+}
+.contractheading {
+    width: 32%;
+}
+.contractcontain1, .contractcontain2, .bulkcontain1, .bulkcontain2{
+    width: 48%;
+}
+.bulkheading {
+    width: 26%;
+}
+.processheading {
+    width: 12%;
+}
+.contactheading {
+    width: 13%;
+}
+}
+
+@media (max-width: 992px) {
+.navbar{
+    padding-top: 0px;
+}
+.contain1{
+    font-size: 2.3rem;
+}
+.contain2{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.containimg{
+    width: 45%;
+    margin-bottom:5%;
+}
+.section_content h1{
+    font-size: 2.5rem;
+}
+.section_content p{
+    font-size: 1.2rem;
+    padding: 10px 50px;
+}
+.section_content1 h1{
+      font-size: 2.5rem; 
+}
+.problems li{
+      font-size: 1.2rem;
+}
+.developmentheading {
+    width: 72%;
+}
+.footer__logo {
+    width: 56%;
+}
+.footer__logo {
+    margin-right: 60px;
+}
+.whyusheading {
+width: 9%;
+}
+.whyusdetails{
+        font-size: 38px;
+    line-height: 2.5rem;
+}
+.aboutcontain1a {
+    width: 53%;
+}
+.aboutheading {
+    width: 19%;
+}
+.aboutcontain1{
+    width: 86%;
+    font-size: 30px;
+    line-height: 2rem;
+}
+.aboutcontain2{
+    font-size: 18px;
+}
+.servicesheading {
+    width: 14%;
+}
+.servicesdetails {
+font-size: 38px;
+line-height: 2rem;
+}
+.permanentheading {
+    width: 26%;
+}
+.permanentcontain1, .contractcontain1, .bulkcontain1 {
+    width: 31%;
+    width: 48%;
+    font-size: 36px;
+    line-height: 2rem;
+}
+ .permanentcontain2, .contractcontain2, .bulkcontain2 {
+ width: 48%;
+ line-height: 1.5rem;
+ font-size: 18px;
+}
+.contractheading {
+    width: 38%;
+}
+.bulkheading {
+    width: 31%;
+}
+.processheading {
+    width: 14%;
+}
+.processcontain {
+    font-size: 38px;
+    line-height: 2rem; 
+}
+.contactheading {
+    width: 16%;
+}
+}
+
+
+
+@media (max-width: 768px) {
+.navbarli {
+    padding: 5px 25px;
+}
+.navbarlist{
+ padding-right: 25px;
+  font-size: 12px;
+}
+.banner h1 {
+    font-size: 3rem;
+}
+.banner_common_section {
+    font-size: 1rem;
+}
+.contain1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.contain2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.talentbutton {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+}
+.containimg {
+    height: 250px;
+}
+.section_content h1 {
+    font-size: 2rem;
+}
+.section_content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.section_content1 h1 {
+    font-size: 2rem;
+}
+.problems li {
+    font-size: 1rem;
+        padding: 0rem 5rem 0 1rem;
+}
+.developmentheading {
+    width: 93%;
+}
+
+}
+
