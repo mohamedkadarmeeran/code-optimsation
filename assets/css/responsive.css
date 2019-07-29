@@ -175,6 +175,12 @@ margin: 10px
     }
     .header_logoimg {
     max-width: 35%;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 }
 .listingHeader__toggle{
     display: block;
@@ -182,18 +188,24 @@ margin: 10px
 .listingHeader__menu{
     float: left;
 }
+.header_navbarlist {
+    font-size: 16px;
+}
 .header_navbar {
     float: none;
 }
 .fa{
-    color: #e1f1ff;
+    color: #f37a75;
 }
-.header_navbarli li {
-    display: block;
-    text-align: center;
-    margin-top: 35px;
-    margin-right: 0px;
+.header_navbarli {
+    display: none;
 }   
+.header_navbarli li{
+        text-align: center;
+    margin-top: 20px;
+    margin-right: 0px;
+    display: block;
+}
 .banner h1{
     font-size: 3rem;
 }
@@ -361,14 +373,14 @@ margin: 10px
 }
 /*career responsive css*/
 .carrerbanner {
-    padding-top: 10%;
+    padding-top: 12%;
 }
 .containerbox {
-    width: 95%;
+    width: 85%;
     height: 250px;
     margin: 0 auto;
     float: none;
-    padding: 0;
+    padding: 0 15px;
     display: block;
     margin-bottom: 5%;
 }
@@ -389,7 +401,11 @@ margin: 10px
     padding: 0;
     padding-bottom: 2%;
 }
-.contain1, .contain2, .problems li, .services_details, .process_contain, .whyusdetails {
+.contain1, .contain2, .problems li{
+    width: 100%;
+}
+
+.services_details, .process_contain, .whyusdetails {
     width: 95%
 } 
 
