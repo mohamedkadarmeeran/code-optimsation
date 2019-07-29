@@ -1,3 +1,12 @@
+// index hamberger function
+$(document).ready(function(){
+    $('.listingHeader__menu').click(function(){
+        $('.header_navbarli').toggle();
+    });
+});
+
+
+
 //form validation
 Submit = () =>{ 
     var success= document.getElementById("success");
@@ -149,95 +158,3 @@ if((emailStandard.test(txtEmail.value)== true) && txtname.value.length >=1 && tx
         });
  
 
-
-//  //form validation
-// Submit = () =>{ 
-//     var success= document.getElementById("success");
-//     success.style.display = 'none';
-//     var emailStandard = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
-//     var txtname =  document.getElementById("name");
-//     var txtEmail = document.getElementById("email");
-//      var txtNumber = document.getElementById("phoneno"); 
-//       var txtMsg = document.getElementById("message");  
-     
-   
-//     var errEmail= document.getElementById("errEmail"); 
-//      var errNum = document.getElementById("errphoneno");  
-//     var errMsg= document.getElementById("errmsg"); 
-//     var errname= document.getElementById("errname"); 
-    
-   
-    
-//     if(txtEmail.value ==="" ){
-//         errEmail.style.display="block";
-//     }   
-//     if(txtEmail.value !== ""){  
-//         if(emailStandard.test(txtEmail.value)== true){ 
-//             errEmail.style.display="none"; 
-//         }
-//         if(emailStandard.test(txtEmail.value)== false){ 
-//              errEmail.innerHTML="please enter valid email id";
-//             errEmail.style.display="block"; 
-//         }
-//     } 
-
-//    if(txtname.value===""){
-//         errname.innerHTML="please Enter the Name";
-//         errname.style.display="block";   
-//     }
-//         if(txtname.value !== ""){ 
-//         errname.style.display="none";    
-//     }
-
-
-//   if(txtMsg.value===""){
-//         errMsg.innerHTML="please Enter the message box";
-//         errMsg.style.display="block";   
-//     }
-    
-//     if(txtMsg.value !== ""){ 
-//         errMsg.style.display="none";    
-//     }
-
-
-//      if(txtNumber.value ===""){
-//       errNum.innerHTML = "Please enter the number";
-//       errphoneno.style.display="block";
-//   }
-//   if(txtNumber.value !== "") { 
-//       if(isNaN(txtNumber.value))
-//       {
-//           errNum.innerHTML = "Please enter phone no number only";
-//           errphoneno.style.display="block";
-//       return false;
-//       }
-//      else if((txtNumber.value.length != 10))
-//       {
-//           errNum.innerHTML = " mobile number should be in 10 digit";
-//           errphoneno.style.display="block";
-//       return false;
-//       }
-//       else{ errphoneno.style.display="none";}
-//   }
- 
-
-    
-//     // if(selectOptions.value ==0){
-//     //     errdrop.style.display="block";
-//     // }
-//     // if(selectOptions.value !=0){ 
-//     //     // this.setState({select:"none"});
-//     // }
-// if((emailStandard.test(txtEmail.value)== true) && txtname.value.length >=2 && txtMsg.value.length >= 2 && txtEmail.value !== "" && txtname.value !=="" &&  txtMsg.value !=="" && txtNumber.value !== "" ){
-//         success.style.display="block";
-//         txtEmail.value=""; 
-//         txtname.value="";
-//          txtMsg.value="";
-//         txtNumber.value="";
-       
-       
-//     }
-//     else {
-//       success.style.display="none";
-//     }
-// }

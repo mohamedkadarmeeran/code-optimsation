@@ -1,196 +1,394 @@
-@media (max-width: 1200px) {
-.navbar{
+@media (max-width:1200px) {
+.header_navbar{
     padding-top: 0px;
 }
-
-.footer__logo{
-    width: 40%;
+.banner{
+    margin-top: 70px;
 }
-.developmentheading{
-    width: 60%;
+.contain1{
+    width: 85%;
 }
-.aboutheading {
-    width: 14%;
+.contain2{
+    width: 89%;
 }
-.aboutcontain1{
-    width: 98%;
+.about_contain1 {
+    width: 88%;
 }
-.aboutcontain2{
-    margin-bottom: 20px;
-        width: 87%;
-}
-.servicesheading {
-    width: 12%;
-}
-.permanentheading {
-    width: 21%;
-}
-.permanentcontain1,.permanentcontain2 {
-    width: 47%;
-}
-.contractheading {
-    width: 32%;
-}
-.contractcontain1, .contractcontain2, .bulkcontain1, .bulkcontain2{
-    width: 48%;
-}
-.bulkheading {
-    width: 26%;
-}
-.processheading {
-    width: 12%;
-}
-.contactheading {
-    width: 13%;
+.containerbox {
+    width: 27.6%;
+    height: 260px;
 }
 }
 
 @media (max-width: 992px) {
-.navbar{
+.header_navbar {
     padding-top: 0px;
 }
-.contain1{
-    font-size: 2.3rem;
+.banner {
+    margin-top: 69px;
 }
-.contain2{
-    font-size: 1.25rem;
-    line-height: 2rem;
+.banner_img{
+    height: 300px;
+    background-size: contain;
 }
-.containimg{
-    width: 45%;
-    margin-bottom:5%;
-}
-.section_content h1{
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process_contain, .whyusdetails {
     font-size: 2.5rem;
-}
-.section_content p{
-    font-size: 1.2rem;
-    padding: 10px 50px;
-}
-.section_content1 h1{
-      font-size: 2.5rem; 
-}
-.problems li{
-      font-size: 1.2rem;
-}
-.developmentheading {
-    width: 72%;
-}
-.footer__logo {
-    width: 56%;
-}
-.footer__logo {
-    margin-right: 60px;
-}
-.whyusheading {
-width: 9%;
-}
-.whyusdetails{
-        font-size: 38px;
     line-height: 2.5rem;
 }
-.aboutcontain1a {
-    width: 53%;
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whycontain {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
-.aboutheading {
-    width: 19%;
+.resCarousel-inner .item .tile {
+background: white;
+margin: 10px
 }
-.aboutcontain1{
-    width: 86%;
-    font-size: 30px;
-    line-height: 2rem;
+.carrerbanner {
+    padding-top: 6%;
 }
-.aboutcontain2{
-    font-size: 18px;
+.containerbox {
+    width: 26.4%;
+    height: 280px;
 }
-.servicesheading {
-    width: 14%;
+.containerbox_desc {
+    height: 75px;
 }
-.servicesdetails {
-font-size: 38px;
-line-height: 2rem;
+.containerbox_skills {
+    height: 65px;
 }
-.permanentheading {
-    width: 26%;
+.contactbanner {
+    padding-top: 7%;
 }
-.permanentcontain1, .contractcontain1, .bulkcontain1 {
-    width: 31%;
-    width: 48%;
-    font-size: 36px;
-    line-height: 2rem;
-}
- .permanentcontain2, .contractcontain2, .bulkcontain2 {
- width: 48%;
- line-height: 1.5rem;
- font-size: 18px;
-}
-.contractheading {
-    width: 38%;
-}
-.bulkheading {
-    width: 31%;
-}
-.processheading {
-    width: 14%;
-}
-.processcontain {
-    font-size: 38px;
-    line-height: 2rem; 
-}
-.contactheading {
-    width: 16%;
+.map {
+    width: 37%;
 }
 }
 
 
 
 @media (max-width: 768px) {
-.navbarli {
-    padding: 5px 25px;
+.header_navbarli {
+    padding: 0px 60px;
 }
-.navbarlist{
- padding-right: 25px;
-  font-size: 12px;
+.header_navbarlist {
+    padding-right: 10px;
+        font-size: 12px;
 }
-.banner h1 {
+.banner {
+    margin-top: 55px;
+}
+.banner_img {
+    height: 235px;
+    background-size: contain;
+}
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process_contain, .whyusdetails {
+    font-size: 2.1rem;
+    line-height: 2.3rem;
+}
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whycontain {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.containimg {
+    padding: 0px 20px 20px 20px;
+}
+.class1, .class2, .class3, .class4, .class5, .class6, .class7, .class8, .class9, .class10, .class11, .class12, .class13, .class14{
+    width:90px;
+    height: 75px;
+}
+.resCarousel-inner {
+ width: 65%;
+}
+
+.leftRs {
+    margin-left: 45px;
+}
+.rightRs {
+    margin-right: 45px;
+}
+.resCarousel-inner .item .tile {
+    margin: 0px;
+}
+/*.footer_leftDiv {
+    width: 15%;
+}
+.footer_logo {
+    width: 60%;
+}
+.footer_rightDiv {
+    width: 85%;
+}
+.footer_quicklinks {
+    width: 17%;
+}
+.footer_register {
+    width: 27%;
+}
+.footer_share {
+    width: 32%;
+}
+.footer_contact {
+    width: 22%;
+}
+*/
+.footer_logo {
+    width: 60%;
+}
+.footer_quicklinks {
+    width: 19%;
+}
+.footer_menu {
+    font-size: 12px;
+}
+.regaddress, .footer_shareaddress, .footer_contdetails {
+    font-size: 12px;
+}
+.carrerbanner {
+    padding-top: 7%;
+}
+.containerbox_header {
+    line-height: 1.5rem;
+    font-size: 17px;
+  /*  height: 30px;*/
+}
+.containerbox {
+    width: 24.4%;
+    height: 350px;
+}
+.containerbox_desc {
+    height: 110px;
+}
+.containerbox_skills {
+    height: 100px;
+}
+.containerbox_applybutton {
+    padding: 8px 10px;
+}
+
+}
+
+@media screen and (max-width: 576px) and (min-width: 321px){
+    .header{
+        position: absolute;
+        padding: 16px 0px;
+    }
+    .header_logoimg {
+    max-width: 25%;
+}
+.listingHeader__toggle{
+    display: block;
+}
+.listingHeader__menu{
+    float: left;
+}
+.header_navbar {
+    float: none;
+}
+.fa{
+    color: #e1f1ff;
+}
+.header_navbarli li {
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 0px;
+}   
+.banner h1{
     font-size: 3rem;
 }
 .banner_common_section {
     font-size: 1rem;
+}   
+.banner_img {
+    height: 177px;
 }
-.contain1 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.containimg{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: block;
+    float: none;
 }
-.contain2 {
-    font-size: 1rem;
-    line-height: 1.5rem;
+.section3_contain{
+        display: block;
+    float: none;
+    width: 70%;
+    margin: 0 auto;
+    padding:0;
 }
-.talentbutton {
-    height: 35px;
-    width: 150px;
-    font-size: 15px;
+.section_content{
+  width: 70%;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+    display: block;
 }
-.containimg {
+.challenge .section_image {
+    height: auto;
+    float: none;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+}
+
+.alignnone{
+    width: 80%;
+    margin: 0 auto;
+}
+.section_image1{
+        width: 70%;
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
+.section_content1{
+        width: 70%;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+    display: block;
+}
+
+.resCarousel-inner {
+ width: 50%;
+}
+/*footer responsive css*/
+.footer_leftDiv {
+    width: 100%;
+    float: left;
+    margin: 0;
+    float: none;
+    padding: 0;
+}
+.footer_logo {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    }
+
+.footer_rightDiv {
+    float: none;
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+.footer_quicklinks, .footer_register, .footer_share, .footer_contact {
+    width: 32%;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    float: none;
+    text-align: center;
+}
+.footer_menu {
+    font-size: 14px;
+}
+.regaddress, .footer_shareaddress, .footer_contdetails {
+    font-size: 14px;
+}
+/*about responsive css*/
+.about_img{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    display: block;
+}
+.about_description{
+        width: 70%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
+.about_contain1, .about_contain2 {
+    width: 100%;
+}
+/*services responsive css*/
+.services_heading {
+    padding-top: 11%;
+}
+.permanent_img, .contract_img, .bulk_img{
+        width: 70%;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+    display: block;
+}
+.permanent_desc, .contract_desc, .bulk_desc{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    float: none;
+}
+/*process responsive css*/
+.process_heading {
+    padding-top: 11%;
+    }
+
+/*whyus responsive css*/
+.whyusheading {
+    padding-top: 11%;
+}
+.differnetmain, .problemmain{
+    float: none;
+    display: block;
+    margin:0 auto;
+    width: 70%;
+    margin-bottom: 0%;
+}
+.differnet, .usp, .problem, .solution{
+    height: unset;
+}
+.whyusimg{
+        display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+}
+/*career responsive css*/
+.carrerbanner {
+    padding-top: 10%;
+}
+.containerbox {
+    width: 70%;
     height: 250px;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+    display: block;
+    margin-bottom: 5%;
 }
-.section_content h1 {
-    font-size: 2rem;
+.containerbox_desc {
+    height: 50px;
 }
-.section_content p {
-    font-size: 1rem;
-    line-height: 1.5rem;
+.containerbox_skills {
+    height: 50px;
 }
-.section_content1 h1 {
-    font-size: 2rem;
+/*contact us responsive css*/
+.contactbanner{
+    padding-top: 10%;
 }
-.problems li {
-    font-size: 1rem;
-        padding: 0rem 5rem 0 1rem;
-}
-.developmentheading {
-    width: 93%;
+.contact, .map{
+    width:80%;
+    margin:0 auto;
+    float:none;
+    padding: 0;
+    padding-bottom: 2%;
 }
 
-}
 
+
+
+
+
+
+
+
+
+
+}
