@@ -254,7 +254,7 @@ margin: 10px
  width: 50%;
 }
 /*footer responsive css*/
-.footer_leftDiv {
+/*.footer_leftDiv {
     width: 100%;
     float: left;
     margin: 0;
@@ -282,7 +282,7 @@ margin: 10px
     padding: 1rem;
     float: none;
     text-align: center;
-}
+}*/
 .footer_menu {
     font-size: 14px;
 }
@@ -380,7 +380,7 @@ margin: 10px
     padding: 0;
     padding-bottom: 2%;
 }
-.contain1, .contain2, .problems li, .services_details, .process_contain, .whyusdetails,   {
+.contain1, .contain2, .problems li, .services_details, .process_contain, .whyusdetails {
     width: 95%
 } 
 
