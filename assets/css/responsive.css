@@ -173,7 +173,7 @@ margin: 10px
         padding: 16px 0px;
     }
     .header_logoimg {
-    max-width: 25%;
+    max-width: 30%;
 }
 .listingHeader__toggle{
     display: block;
@@ -203,7 +203,7 @@ margin: 10px
     height: 177px;
 }
 .containimg{
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
     padding: 1rem 1rem;
     display: block;
@@ -212,12 +212,12 @@ margin: 10px
 .section3_contain{
         display: block;
     float: none;
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
     padding:0;
 }
 .section_content{
-  width: 70%;
+  width: 95%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -228,22 +228,22 @@ margin: 10px
     float: none;
     padding-top: 40px;
     margin: 0 auto;
-    width: 70%;
+    width: 95%;
     padding: 0;
 }
 
 .alignnone{
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 .section_image1{
-        width: 70%;
+        width: 95%;
     margin: 0 auto;
     float: none;
     display: block;
 }
 .section_content1{
-        width: 70%;
+        width: 95%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -291,14 +291,14 @@ margin: 10px
 }
 /*about responsive css*/
 .about_img{
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
     float: none;
     display: block;
 }
 .about_description{
-        width: 70%;
+        width: 95%;
     padding: 0;
     margin: 0 auto;
     float: none;
@@ -312,7 +312,7 @@ margin: 10px
     padding-top: 11%;
 }
 .permanent_img, .contract_img, .bulk_img{
-        width: 70%;
+        width: 95%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -321,7 +321,7 @@ margin: 10px
 .permanent_desc, .contract_desc, .bulk_desc{
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 95%;
     float: none;
 }
 /*process responsive css*/
@@ -337,7 +337,7 @@ margin: 10px
     float: none;
     display: block;
     margin:0 auto;
-    width: 70%;
+    width: 95%;
     margin-bottom: 0%;
 }
 .differnet, .usp, .problem, .solution{
@@ -345,7 +345,7 @@ margin: 10px
 }
 .whyusimg{
         display: block;
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
     float: none;
@@ -355,7 +355,7 @@ margin: 10px
     padding-top: 10%;
 }
 .containerbox {
-    width: 70%;
+    width: 95%;
     height: 250px;
     margin: 0 auto;
     float: none;
@@ -374,19 +374,48 @@ margin: 10px
     padding-top: 10%;
 }
 .contact, .map{
-    width:70%;
+    width:95%;
     margin:0 auto;
     float:none;
     padding: 0;
     padding-bottom: 2%;
 }
+.contain1, .contain2, .problems li, .services_details, .process_contain, .whyusdetails,   {
+    width: 95%
+} 
 
-
-
-
-
-
-
+.section_content h1 {
+    margin: 1rem 0 1.5rem 0px;
+}
+.section_content p {
+    margin: 0;
+    padding: 10px 30px;
+    padding: 0;
+}
+.resCarousel {
+    width: 95%;
+    margin: 0 auto;
+}
+#leftarrow, #rightarrow {
+    display: none;
+    }
+.sections2_weare {
+    padding: 0rem 0rem;
+}
+.section_image {
+    width: 95%;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+}
+.permanent, .contract, .bulk{
+    padding:0;
+}
+.contact_main {
+    width: 100%;
+}
 
 
 
