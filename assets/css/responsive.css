@@ -207,16 +207,16 @@ user-select: none;
     display: block;
 }
 .banner h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .banner_common_section {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }   
 .banner_img {
     height: 177px;
 }
 .containimg{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     padding: 1rem 0rem;
     display: block;
@@ -225,12 +225,12 @@ user-select: none;
 .section3_contain{
         display: block;
     float: none;
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     padding:0;
 }
 .section_content{
-  width: 95%;
+  width: 85%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -240,7 +240,7 @@ user-select: none;
     height: auto;
     float: none;
     margin: 0 auto;
-    width: 95%;
+    width: 85%;
     padding: 0;
 }
 
@@ -249,13 +249,13 @@ user-select: none;
     margin: 0 auto;
 }
 .section_image1{
-        width: 95%;
+        width: 85%;
     margin: 0 auto;
     float: none;
     display: block;
 }
 .section_content1{
-        width: 95%;
+        width: 85%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -264,9 +264,12 @@ user-select: none;
 .problems li {
     padding: 1rem 0rem 0 1rem;
     }
-
+.developmentheading{
+    text-align: center;
+        letter-spacing: 0.10rem;
+}
 .resCarousel-inner {
- width: 75%;
+ width: 55%;
 }
 .item{
     width: 27%;
@@ -305,21 +308,21 @@ user-select: none;
     text-align: center;
 }*/
 .footer_menu {
-    font-size: 14px;
+    font-size: 12px;
 }
 .regaddress, .footer_shareaddress, .footer_contdetails {
-    font-size: 14px;
+    font-size: 12px;
 }
 /*about responsive css*/
 .about_img{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     padding: 0;
     float: none;
     display: block;
 }
 .about_description{
-        width: 95%;
+        width: 85%;
     padding: 0;
     margin: 0 auto;
     float: none;
@@ -328,12 +331,15 @@ user-select: none;
 .about_contain1, .about_contain2 {
     width: 100%;
 }
+.section_content h2{
+    margin-left: 0;
+}
 /*services responsive css*/
 .services_heading {
-    padding-top: 11%;
+    padding-top: 17%;
 }
 .permanent_img, .contract_img, .bulk_img{
-        width: 95%;
+        width: 85%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -342,23 +348,23 @@ user-select: none;
 .permanent_desc, .contract_desc, .bulk_desc{
     display: block;
     margin: 0 auto;
-    width: 95%;
+    width: 85%;
     float: none;
 }
 /*process responsive css*/
 .process_heading {
-    padding-top: 11%;
+    padding-top: 17%;
     }
 
 /*whyus responsive css*/
 .whyusheading {
-    padding-top: 11%;
+    padding-top: 17%;
 }
 .differnetmain, .problemmain{
     float: none;
     display: block;
     margin:0 auto;
-    width: 95%;
+    width: 85%;
     margin-bottom: 0%;
 }
 .differnet, .usp, .problem, .solution{
@@ -366,18 +372,18 @@ user-select: none;
 }
 .whyusimg{
         display: block;
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     padding: 0;
     float: none;
 }
 /*career responsive css*/
 .carrerbanner {
-    padding-top: 12%;
+    padding-top: 13%;
 }
 .containerbox {
     width: 85%;
-    height: 250px;
+    height: 270px;
     margin: 0 auto;
     float: none;
     padding: 0 15px;
@@ -385,17 +391,17 @@ user-select: none;
     margin-bottom: 5%;
 }
 .containerbox_desc {
-    height: 50px;
+    height: 60px;
 }
 .containerbox_skills {
-    height: 50px;
+    height: 60px;
 }
 /*contact us responsive css*/
 .contactbanner{
-    padding-top: 10%;
+    padding-top: 13%;
 }
 .contact, .map{
-    width:95%;
+    width:85%;
     margin:0 auto;
     float:none;
     padding: 0;
@@ -406,9 +412,11 @@ user-select: none;
 }
 
 .services_details, .process_contain, .whyusdetails {
-    width: 95%
+    width: 85%
 } 
-
+.process_img {
+    width: 90%;
+}
 .section_content h1 {
     margin: 1rem 0 1.5rem 0px;
 }
@@ -433,15 +441,19 @@ user-select: none;
     padding: 0rem 0rem;
 }
 .section_image {
-    width: 95%;
+    width: 85%;
     height: auto;
     padding: 1rem 0 1rem 0;
     margin: 0 auto;
     padding: 0;
     float: none;
+    padding-bottom: 3%;
 }
 .permanent, .contract, .bulk{
     padding:0;
+}
+.bulk{
+    padding-bottom: 5%;
 }
 .contact_main {
     width: 100%;
