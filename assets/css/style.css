@@ -30,32 +30,39 @@ src: url(../fonts/OpenSans-Light.ttf);
 	z-index: 1;
 	box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
 }
-.listingHeader__toggle{
+.Header__toggle{
     width: 0%;
-    padding: 0% 3%;
+    padding: 2% 3%;
     text-align: left;
     box-sizing: border-box; 
     font-size: 30px;
     display: none;
     float: left;
 }
-
-.header_logoimg{
-	max-width: 15%;
-	height: auto;
+.header__logoH1{
+    width: 250px;
+    height: 50px;
+    float: left;
 }
-.header_navbar{
+.header__logo{
+    background: url('../images/Logo.svg') no-repeat;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-indent: -99999em;
+}
+.header__navbar{
 	float: right;
 	padding-top: 5px;
 }
-.header_navbarli {
+.header__navbarli {
 	list-style-type: none;
 	padding: 10px 30px;
 }
-.header_navbarli li {
+.header__navbarli li {
 	display: inline-block;
 }
-.header_navbarlist{
+.header__navbarlist{
 	text-decoration: none;
 	color: #565656;
 	padding-right: 35px;
@@ -65,72 +72,79 @@ src: url(../fonts/OpenSans-Light.ttf);
 .clear{
 	clear:both;
 }
-.header_navbarlist:hover {
+.header__navbarlist:hover {
    text-decoration: none;
+    color: #15a99c;
+    cursor: pointer;
 }
 
+.header .current a{
+   color: #15a99c;  
+}
+
+ 
 /*Header ends*/
 /*Footer starts*/
 .footer{
     background-color: #e1f1ff;
     clear: both;
 }
-.footer_leftDiv{
+.footer__leftDiv{
     width: 20%; 
     float: left; 
     margin: 0px 0px 0px 0px;
 }    
-.footer_content{ 
+.footer__content{ 
     width: 100%;
     padding-top: 50px; 
     padding-bottom: 50px;
     overflow: hidden;
 } 
-.footer_logo{
+.footer__logo{
   width: 45%;
 padding-left: 23%;
 }
-.footer_rightDiv{
+.footer__rightDiv{
     width: 80%; 
     float: right;
 }
-.footer_quicklinks{
+.footer__quicklinks{
     width: 20%;
 }
-.footer_register{
+.footer__register{
     width: 27%;
 }
-.footer_share{
+.footer__share{
     width: 26%;
 }
-.footer_contact{
+.footer__contact{
     width: 25%;
 }
 .myClass{
     display: inline-block;    
     vertical-align: top;
 }
-.footerlogoimg{
+.footer__logoimg{
     width: 15%;
     display: inline-block;
 }
-.footer_menu{
+.footer__menu{
     text-decoration: none;
     line-height: 1.5;
     font-size: 0.9rem;
     color: #626262;
 }
-.footer_mail{
+.footer__mail{
     text-decoration: none;
     color: #626262;
 }
-.footer_registerheader, .footer_quicklinksheader, .footer_shareheader, .footer_contactheader, .footer_followheader{
+.footer__registerheader, .footer__quicklinksheader, .footer__shareheader, .footer__contactheader, .footer__followheader{
 	font-weight: 600;
 	font-size: 0.85rem;
 	margin-bottom: 10px;
 	color: #626262;
 }
-.regaddress, .footer_shareaddress, .footer_contdetails{
+.footer__regaddress, .footer__shareaddress, .footer__contdetails{
     line-height: 1.5;
     font-size: 0.9rem;
     color: #626262;
@@ -138,10 +152,10 @@ padding-left: 23%;
 .location, .envelope, .call{
     height: 12px;
 }
-.footer_business{
+.footer__business{
     margin-top: 25px;
 }
-.footer_social-networks {
+.footer__social-networks {
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -156,7 +170,7 @@ padding-left: 23%;
 .facebook:hover, .twitter-logo:hover, .linkedin:hover, .instagram:hover{
     opacity: 0.4;
 }
-.footer_copyright_text {
+.footer__copyright {
     text-align: center;
     padding-bottom: 15px;
     font-size: 0.75rem;
@@ -164,7 +178,7 @@ padding-left: 23%;
 }
 /*Footer ends*/
 /*Common styles starts*/
-.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services_heading, .permanent_heading, .contract_heading, .bulk_heading, .process_heading, .whyusheading, .whyheading, .jobmain, .contact_heading{
+.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services_heading, .permanent_heading, .contract_heading, .bulk_heading, .process_heading, .whyusheading, .whyheading, .jobmain, .contact__heading{
 	font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.15rem;
@@ -897,21 +911,21 @@ padding-top: 5%;
 padding-top: 5%;
 
 }
-.contactbanner_img{
+.contactbanner__img{
     width:100%;
 }
 .contact{
     width: 60%;
     float: left;
 }
-.contact_main{
+.contact__main{
 	width: 90%;
 	margin:0 auto;	
 }
-.contact_heading{
+.contact__heading{
     margin: 0 auto;
 }
-.contact_input{
+.contact__input{
 	outline: none;
     padding-bottom: 10px;
     border-top: none;
@@ -924,7 +938,7 @@ padding-top: 5%;
     font-size: 1.2rem;
         font-family: "Open Sans", sans-serif;
 }
-.contact_button{
+.contact__button{
     border: none;
     text-align: center;
     cursor: pointer;
@@ -941,17 +955,17 @@ padding-top: 5%;
                text-transform: uppercase;
                font-weight: bold;
 }
-.contact_button:hover{
+.contact__button:hover{
 	cursor: pointer;
     background-color: #15a99c;
 }
-.contact_errMsg{
+.contact__errMsg{
     font-size: 16px;
     color: red;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.contact_sucessmsg{
+.contact__sucessmsg{
 	    color: green;
     font-size: 18px;
      padding-top: 5px;
